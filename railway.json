@@ -1,5 +1,16 @@
 {
-    "build": "cd Project/demo && ./mvnw clean package",
-    "start": "./start.sh",
-    "platform": "java"
+    "services": [
+        {
+            "name": "demo",
+            "build": {
+                "builder": "shell",
+                "command": "cd Project/demo && ./mvnw clean package"
+            },
+            "start": {
+                "builder": "shell",
+                "command": "./start.sh"
+            },
+            "platform": "java"
+        }
+    ]
 }
