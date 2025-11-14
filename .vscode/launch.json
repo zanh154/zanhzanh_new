@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WarrantyManagement<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fptu.swp391.se1839.oemevwarrantymanagement.WarrantyManagement",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JobhunterApplication<SWP391_SU25_SE1839_BE>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "vn.hoidanit.jobhunter.JobhunterApplication",
+            "projectName": "SWP391_SU25_SE1839_BE",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

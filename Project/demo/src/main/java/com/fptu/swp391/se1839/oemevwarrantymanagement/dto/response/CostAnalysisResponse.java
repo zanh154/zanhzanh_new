@@ -1,0 +1,26 @@
+package com.fptu.swp391.se1839.oemevwarrantymanagement.dto.response;
+
+import java.util.List;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class CostAnalysisResponse {
+    List<MonthlyCostSummaryResponse> monthlySummaries;
+    List<ComponentCostSummaryResponse> componentSummaries;
+    Long yMax;
+    long totalWarrantyCost;
+    double averageCostPerClaim;
+    long totalClaimsProcessed;
+    double costOfSalesRatio;
+    double targetRatio;
+}
