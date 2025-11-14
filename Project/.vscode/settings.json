@@ -1,4 +1,9 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
+<<<<<<< HEAD
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true
+=======
     "java.compile.nullAnalysis.mode": "automatic"
+>>>>>>> d207243 (final NoSecurity_QuocAnh)
 }
